@@ -1,0 +1,4 @@
+<?php
+//000031622400
+ exit();?>
+think_serialize:a:4:{i:0;a:9:{s:2:"id";i:3;s:7:"payCode";s:10:"weixinpays";s:7:"payName";s:12:"微信支付";s:7:"payDesc";s:12:"微信支付";s:8:"payOrder";i:0;s:9:"payConfig";s:0:"";s:7:"enabled";i:0;s:8:"isOnline";i:1;s:6:"payFor";s:5:"1,2,3";}i:1;a:9:{s:2:"id";i:1;s:7:"payCode";s:3:"cod";s:7:"payName";s:12:"货到付款";s:7:"payDesc";s:12:"开通城市";s:8:"payOrder";i:1;s:9:"payConfig";s:0:"";s:7:"enabled";i:1;s:8:"isOnline";i:0;s:6:"payFor";s:7:"1,2,3,4";}i:2;a:9:{s:2:"id";i:2;s:7:"payCode";s:7:"alipays";s:7:"payName";s:23:"支付宝(及时到帐)";s:7:"payDesc";s:23:"支付宝(及时到帐)";s:8:"payOrder";i:4;s:9:"payConfig";s:0:"";s:7:"enabled";i:0;s:8:"isOnline";i:1;s:6:"payFor";s:5:"1,2,4";}i:3;a:9:{s:2:"id";i:4;s:7:"payCode";s:7:"wallets";s:7:"payName";s:12:"余额支付";s:7:"payDesc";s:12:"余额支付";s:8:"payOrder";i:5;s:9:"payConfig";s:0:"";s:7:"enabled";i:1;s:8:"isOnline";i:1;s:6:"payFor";s:7:"1,2,3,4";}}

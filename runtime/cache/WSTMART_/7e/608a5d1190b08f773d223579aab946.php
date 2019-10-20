@@ -1,0 +1,4 @@
+<?php
+//000000007200
+ exit();?>
+think_serialize:a:2:{i:0;a:15:{s:9:"goodsTips";s:0:"";s:8:"shopName";s:9:"花果山";s:6:"shopId";i:12;s:7:"goodsId";i:6;s:9:"goodsName";s:80:"花果山 云南甜玉米 水果玉米 约2.5kg 6-9根 烧烤食材 新鲜蔬菜";s:8:"goodsImg";s:38:"upload/goods/2019-02/5c7009f97fed8.jpg";s:7:"goodsSn";s:15:"155084645314975";s:10:"goodsStock";i:10000;s:7:"saleNum";i:0;s:9:"shopPrice";s:5:"26.80";s:11:"marketPrice";s:5:"35.00";s:6:"isSpec";i:0;s:11:"appraiseNum";i:0;s:8:"visitNum";i:1;s:5:"isNew";i:1;}i:1;a:15:{s:9:"goodsTips";s:0:"";s:8:"shopName";s:19:"WSTMart自营超市";s:6:"shopId";i:1;s:7:"goodsId";i:117;s:9:"goodsName";s:67:"云南天山雪莲果 红山泥沙新鲜水果 中圆果带箱11斤";s:8:"goodsImg";s:38:"upload/goods/2019-02/5c70e3a13f476.jpg";s:7:"goodsSn";s:15:"155090210544018";s:10:"goodsStock";i:1000000;s:7:"saleNum";i:0;s:9:"shopPrice";s:5:"19.90";s:11:"marketPrice";s:5:"24.00";s:6:"isSpec";i:0;s:11:"appraiseNum";i:0;s:8:"visitNum";i:0;s:5:"isNew";i:0;}}

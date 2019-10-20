@@ -1,0 +1,4 @@
+<?php
+//000000007200
+ exit();?>
+think_serialize:a:2:{i:0;a:15:{s:9:"goodsTips";s:0:"";s:8:"shopName";s:19:"WSTMart自营超市";s:6:"shopId";i:1;s:7:"goodsId";i:43;s:9:"goodsName";s:103:"夏依女性专用洗液237ml（敏感肌肤）*2支装 护理液 私处私密护理 美国原装进口";s:8:"goodsImg";s:38:"upload/goods/2019-02/5c7027e1b2ede.jpg";s:7:"goodsSn";s:15:"155085403436449";s:10:"goodsStock";i:10000;s:7:"saleNum";i:0;s:9:"shopPrice";s:5:"89.00";s:11:"marketPrice";s:6:"100.00";s:6:"isSpec";i:0;s:11:"appraiseNum";i:0;s:8:"visitNum";i:0;s:5:"isNew";i:1;}i:1;a:15:{s:9:"goodsTips";s:0:"";s:8:"shopName";s:19:"WSTMart自营超市";s:6:"shopId";i:1;s:7:"goodsId";i:44;s:9:"goodsName";s:182:"妇炎洁 妇科洗液女性私处护理液伊斯蜜粉嫩缩阴紧致私密护理凝胶润滑油剂洁阴洗阴内道冲洗器洗阴液 私密洗液200ml+洗液380ml送冲洗器2个";s:8:"goodsImg";s:38:"upload/goods/2019-02/5c7028d66c84b.jpg";s:7:"goodsSn";s:15:"155085421243310";s:10:"goodsStock";i:10000;s:7:"saleNum";i:0;s:9:"shopPrice";s:5:"75.00";s:11:"marketPrice";s:5:"89.00";s:6:"isSpec";i:0;s:11:"appraiseNum";i:0;s:8:"visitNum";i:0;s:5:"isNew";i:0;}}

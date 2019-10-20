@@ -1,0 +1,4 @@
+<?php
+//000000086400
+ exit();?>
+think_serialize:a:6:{i:0;a:4:{s:7:"brandId";i:7;s:8:"brandImg";s:39:"upload/brands/2019-02/5c6fd8563ad6b.png";s:9:"brandName";s:12:"鲜丰水果";s:5:"catId";i:47;}i:1;a:4:{s:7:"brandId";i:8;s:8:"brandImg";s:39:"upload/brands/2019-02/5c6fd88b0ea78.png";s:9:"brandName";s:12:"优品水果";s:5:"catId";i:47;}i:2;a:4:{s:7:"brandId";i:9;s:8:"brandImg";s:39:"upload/brands/2019-02/5c6fd8a0b76a1.jpg";s:9:"brandName";s:12:"新鲜鲜果";s:5:"catId";i:47;}i:3;a:4:{s:7:"brandId";i:10;s:8:"brandImg";s:39:"upload/brands/2019-02/5c6fd8ef8638c.png";s:9:"brandName";s:12:"鲜果食光";s:5:"catId";i:47;}i:4;a:4:{s:7:"brandId";i:11;s:8:"brandImg";s:39:"upload/brands/2019-02/5c6fd935d7c53.png";s:9:"brandName";s:6:"猫果";s:5:"catId";i:47;}i:5;a:4:{s:7:"brandId";i:13;s:8:"brandImg";s:39:"upload/brands/2019-02/5c6fd9aad38b6.png";s:9:"brandName";s:9:"花果山";s:5:"catId";i:47;}}

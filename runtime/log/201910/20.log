@@ -1,0 +1,1551 @@
+---------------------------------------------------------------
+[2019-10-20T19:49:54+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.103211s] [吞吐率：9.69req/s] [内存消耗：3,890.57kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:03+08:00] ::1 GET localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html
+[运行时间：0.249884s] [吞吐率：4.00req/s] [内存消耗：4,805.95kb] [文件加载：104]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/goods-46.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\root\wstmart_v3.1.0_190930\wstmart\home\view\default\settlement.html [ array (
+  0 => 'v',
+  1 => 'userAddress',
+  2 => 'areaList',
+  3 => 'userOrderScore',
+  4 => 'userOrderMoney',
+  5 => 'carts',
+  6 => 'payments',
+) ]
+---------------------------------------------------------------
+[2019-10-20T19:50:03+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.110973s] [吞吐率：9.01req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:03+08:00] ::1 GET localhost/wstmart_v3.1.0_190930/index.php/admin/CronJobs/autoCancelNoPay.html
+[运行时间：0.099838s] [吞吐率：10.02req/s] [内存消耗：4,092.36kb] [文件加载：87]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:03+08:00] ::1 GET localhost/wstmart_v3.1.0_190930/index.php/admin/CronJobs/autoSendMsg.html
+[运行时间：0.102677s] [吞吐率：9.74req/s] [内存消耗：4,041.76kb] [文件加载：87]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:04+08:00] ::1 GET localhost/wstmart_v3.1.0_190930/index.php/admin/CronJobs/autoFileXml.html
+[运行时间：0.105259s] [吞吐率：9.50req/s] [内存消耗：4,111.20kb] [文件加载：87]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:04+08:00] ::1 GET localhost/wstmart_v3.1.0_190930/index.php/admin/CronJobs/autoDealOrderService.html
+[运行时间：0.078308s] [吞吐率：12.77req/s] [内存消耗：4,274.70kb] [文件加载：89]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:04+08:00] ::1 GET localhost/wstmart_v3.1.0_190930/index.php/addon/cron-cron-runCrons.html
+[运行时间：0.808281s] [吞吐率：1.24req/s] [内存消耗：3,602.88kb] [文件加载：86]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'addon/<module>-<action>-<method>',
+  'route' => '\\think\\addons\\AddonsController@execute',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'module' => 'cron',
+    'action' => 'cron',
+    'method' => 'runCrons',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'sec-fetch-mode' => 'no-cors',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'cron',
+  'action' => 'cron',
+  'method' => 'runCrons',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:13+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.093751s] [吞吐率：10.67req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:18+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/orders/submit.html
+[运行时间：0.216167s] [吞吐率：4.63req/s] [内存消耗：4,560.50kb] [文件加载：94]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '142',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  's_addressId' => '1',
+  's_areaId' => '343',
+  'payType' => '1',
+  'remark_1' => '',
+  'couponId_1' => '',
+  'deliverType' => '0',
+  'invoiceId' => '0',
+  'isInvoice' => '0',
+  'invoiceClient' => '个人',
+  'isUseScore' => '0',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:23+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.082851s] [吞吐率：12.07req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:33+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.093185s] [吞吐率：10.73req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:43+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.284954s] [吞吐率：3.51req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:53+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.136495s] [吞吐率：7.33req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:50:55+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/orders/submit.html
+[运行时间：0.347071s] [吞吐率：2.88req/s] [内存消耗：4,560.55kb] [文件加载：94]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '142',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  's_addressId' => '1',
+  's_areaId' => '343',
+  'payType' => '1',
+  'remark_1' => '',
+  'couponId_1' => '',
+  'deliverType' => '0',
+  'invoiceId' => '0',
+  'isInvoice' => '0',
+  'invoiceClient' => '个人',
+  'isUseScore' => '0',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:51:03+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.125954s] [吞吐率：7.94req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:51:13+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.115349s] [吞吐率：8.67req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:51:23+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.088555s] [吞吐率：11.29req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:51:33+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.107969s] [吞吐率：9.26req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:51:44+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.085173s] [吞吐率：11.74req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:51:54+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.094516s] [吞吐率：10.58req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:52:04+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.071244s] [吞吐率：14.04req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:52:14+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.088231s] [吞吐率：11.33req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:52:24+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.083814s] [吞吐率：11.93req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:52:34+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.082942s] [吞吐率：12.06req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:52:44+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.108546s] [吞吐率：9.21req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:52:54+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.105988s] [吞吐率：9.44req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:53:04+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.083162s] [吞吐率：12.02req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:53:14+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.085935s] [吞吐率：11.64req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:53:24+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.092442s] [吞吐率：10.82req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:53:34+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.072471s] [吞吐率：13.80req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:53:44+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.084778s] [吞吐率：11.80req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:53:54+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.091442s] [吞吐率：10.94req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:54:04+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.086212s] [吞吐率：11.60req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:54:14+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.092486s] [吞吐率：10.81req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:54:24+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.076876s] [吞吐率：13.01req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:54:34+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.084211s] [吞吐率：11.87req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:54:44+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.089766s] [吞吐率：11.14req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:54:54+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.086365s] [吞吐率：11.58req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:55:04+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.088535s] [吞吐率：11.29req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:55:14+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.098782s] [吞吐率：10.12req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:55:24+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.073963s] [吞吐率：13.52req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:55:34+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.080791s] [吞吐率：12.38req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:55:44+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.078964s] [吞吐率：12.66req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:55:54+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.092233s] [吞吐率：10.84req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:56:04+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.080873s] [吞吐率：12.37req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:56:14+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.075249s] [吞吐率：13.29req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:56:24+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.087986s] [吞吐率：11.37req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:56:34+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.116907s] [吞吐率：8.55req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:56:44+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.104552s] [吞吐率：9.56req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:56:54+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.079397s] [吞吐率：12.59req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:57:04+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.085032s] [吞吐率：11.76req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:57:14+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.163704s] [吞吐率：6.11req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:57:24+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.077566s] [吞吐率：12.89req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:57:34+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.091437s] [吞吐率：10.94req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:57:44+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.072412s] [吞吐率：13.81req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:57:54+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.088489s] [吞吐率：11.30req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:58:04+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.223656s] [吞吐率：4.47req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:58:14+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.078684s] [吞吐率：12.71req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-10-20T19:58:24+08:00] ::1 POST localhost/wstmart_v3.1.0_190930/index.php/home/index/getSysMessages.html
+[运行时间：0.159326s] [吞吐率：6.28req/s] [内存消耗：3,890.55kb] [文件加载：91]
+[ info ] [ LANG ] D:\root\wstmart_v3.1.0_190930\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1570970387; keeplogin=1%7C86400%7C1571056794%7C86bf74fb081c28744d661de87171f324; UM_distinctid=16de84685b521-06589560be56b7-5e4f281b-100200-16de84685b6101; PHPSESSID=hcoqcsd5jv6bn31oo0gq27lfef; CNZZDATA1263804910=1827579388-1571557026-null%7C1571567851; WSTMART_loginName=houhou; WSTMART_loginPwd=%AE%7Cs%AB%7D%A7%A3%AF%7Fwv%DC%86%A7%8D%B1%82%B8%7D%95%8D%9D%80%9C%90%AF%8A%9E%7E%B0%90%CF%AE%8C%83g%89%95%AFj%7F%87%98%DC%87%DDu%B0%8D%B8%89%DB%8Dt%8Ba%8F%AF%85i%7F%A3%8B%93%AF%B2%83f%7F%BA%B7k%80w%98%98%86%CD%9Fn%8D%CE%89%95%8D%9D%84%9C%85%AF%81%B0%7F%A0%83%DB%AE%7C%96%A1; WSTMART_history_goods=think%3A%5B%2246%22%2C%2265%22%2C%223%22%2C%22127%22%2C%2241%22%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/wstmart_v3.1.0_190930/index.php/home/carts/settlement.html',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'tasks' => 'message,cart',
+)
+[ info ] [ DB ] INIT mysql

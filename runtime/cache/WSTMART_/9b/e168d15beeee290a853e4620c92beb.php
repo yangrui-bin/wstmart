@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:2:{i:0;a:15:{s:9:"goodsTips";s:48:"满199减120，仅此一月，错过不再有！";s:8:"shopName";s:18:"三只松鼠零食";s:6:"shopId";i:7;s:7:"goodsId";i:24;s:9:"goodsName";s:90:"满199减120三只松鼠 黄桃干106g休闲零食特产果脯蜜饯水果干桃肉 红色";s:8:"goodsImg";s:38:"upload/goods/2019-02/5c701b2a1e059.png";s:7:"goodsSn";s:15:"155085070063201";s:10:"goodsStock";i:10000;s:7:"saleNum";i:0;s:9:"shopPrice";s:5:"19.90";s:11:"marketPrice";s:5:"25.00";s:6:"isSpec";i:0;s:11:"appraiseNum";i:0;s:8:"visitNum";i:1;s:5:"isNew";i:0;}i:1;a:15:{s:9:"goodsTips";s:0:"";s:8:"shopName";s:18:"三只松鼠零食";s:6:"shopId";i:7;s:7:"goodsId";i:28;s:9:"goodsName";s:62:"三只松鼠凤梨干菠萝干蜜饯果干零食果脯106g/袋";s:8:"goodsImg";s:38:"upload/goods/2019-02/5c701d59500e0.jpg";s:7:"goodsSn";s:15:"155085134595386";s:10:"goodsStock";i:10000;s:7:"saleNum";i:0;s:9:"shopPrice";s:5:"19.80";s:11:"marketPrice";s:5:"23.00";s:6:"isSpec";i:0;s:11:"appraiseNum";i:0;s:8:"visitNum";i:0;s:5:"isNew";i:1;}}
